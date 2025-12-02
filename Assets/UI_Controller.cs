@@ -8,6 +8,7 @@ public class UI_Controller : MonoBehaviour
 {
     public GameObject email;
     public GameObject notes;
+    public GameObject archive;
 
     public void openEmail()
     {
@@ -27,5 +28,15 @@ public class UI_Controller : MonoBehaviour
     public void closeNotes()
     {
         notes.SetActive(false);
+    }
+
+    public void openArchive()
+    {
+        archive.SetActive(true);
+    }
+
+    public void closeArchive()
+    {
+        archive.SetActive(false);
     }
 }

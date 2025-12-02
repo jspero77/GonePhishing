@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: Story 2
+  m_EditorClassIdentifier: 
+  senderType: 7
+  phishingType: 0
+  subjects:
+  - "Need more supplies\_\_"
+  greetings:
+  - "Good morning P1,\_"
+  part1s:
+  - "I have sent this email to request supplies from your lunar base around food
+    and water.\_"
+  part2s:
+  - "This is due to an accident in which we had to use most of the water we had on
+    hand to help produce the cooling liquid needed for the reactor otherwise it would
+    start burning\_\_"
+  part3s:
+  - "Our food supplies have also run out due to the next supplies ship being delayed
+    bringing the water we now need.\_\_"
+  signoffs:
+  - "Regards, \_"
