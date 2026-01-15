@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e78f59f49bc9a4181ff10ad237c5f1, type: 3}
   m_Name: Robert Houston
   m_EditorClassIdentifier: 
-  type: 0
-  displayName: 
-  firstName: 
-  lastName: 
-  emailAddress: 
+  type: 2
+  displayName: Robert Houston
+  firstName: Robert
+  lastName: Houston
+  emailAddress: Rhouston@ISDIT.spa
   emailProfile: {fileID: 0}

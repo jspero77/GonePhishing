@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: Personal 1
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: JohnJ@gmail.com
+
+    Is This Suspicious?'
+  greetings:
+  - 'Hello NBC! I received an email that I think looks oddly suspicious. I work as
+    a VP for a chemical company, and was unsure if this was a real email I would
+    receive?
+
+    See it copied below:
+
+    To: JohnJ@gmail.com
+
+    From:PetrocoMarketingDivision@gmail.com
+
+    Hello
+    John!
+
+    We at Petroco are looking for new manufacutring opportunities overseas,
+    and are Very Excited to work with you! We would like to manufacutre your product
+    per a liscensing agreement. A deposit of 50,000 credits is something we would
+    like to provide as a show of good faith. We need a response back within 48 hours
+    or else we will be looking elsewhere! We will respond with more details should
+    you chose to follow up.
+
+    Looking to hear back from you!
+
+    Best,
+
+    -Petroco
+    Procurement Team'
+  part1s:
+  - Hi
+  part2s:
+  - Hi
+  part3s:
+  - Hi
+  signoffs:
+  - Hi

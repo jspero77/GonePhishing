@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: Phishing 1
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: Baggybaguettes@gmail.com
+
+    Bakery On The News?'
+  greetings:
+  - 'Hello we were wondering if you would be interested in having a locally owned
+    bakery come onto your show. We are willing to supply the crew with free pastries
+    and bread during shooting. You will find our business info and menu attached
+    in this email. Hope to hear from you soon and let us know if you are interested
+    in this partnership.
+
+
+    Regards,
+
+    Head Chef Mary
+
+
+    Attachments:
+
+    Menu.pdf
+
+
+    BaggyBaguettesInfo.exe'
+  part1s:
+  - Hi
+  part2s:
+  - Hi
+  part3s:
+  - Hi
+  signoffs:
+  - Hi

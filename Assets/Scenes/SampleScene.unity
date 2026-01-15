@@ -1613,13 +1613,8 @@ MonoBehaviour:
   part2: 
   part3: 
   subject: 
-  signoff: 
   Q1: 
-  Q1first: 
-  Q1last: 
-  R1: 
-  R1first: 
-  R1last: 
+  signoff: 
   froms: 
   senderAddress: 
   emailCollectionGood: {fileID: 0}
@@ -1627,7 +1622,6 @@ MonoBehaviour:
   sequence: {fileID: 11400000, guid: 881fcd477e517524da655130515bd9be, type: 2}
   directory: {fileID: 11400000, guid: f1a419ca5da315a4a88dab88dabe2ae5, type: 2}
   emailNumber: 0
-  Q2: 
   playerName: 
 --- !u!1 &1053378016
 GameObject:
@@ -1802,8 +1796,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 971ede30e8dea1c499152a0321762595, type: 2}
-  m_sharedMaterial: {fileID: -2512507499005265399, guid: 971ede30e8dea1c499152a0321762595, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1827,8 +1821,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.91
-  m_fontSizeBase: 21.91
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
