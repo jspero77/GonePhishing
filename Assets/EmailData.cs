@@ -12,4 +12,5 @@ public class EmailData : ScriptableObject {
     public string[] part2s;
     public string[] part3s;
     public string[] signoffs;
+    public string[] phishing;
 }

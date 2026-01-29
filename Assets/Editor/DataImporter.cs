@@ -83,8 +83,6 @@ public class DataImporter : ScriptableObject
         if (table.TryGetEnum<SenderType>(row, "Sender", out var sender))
             asset.senderType = sender;
 
-        if (table.TryGetEnum<PhishingType>(row, "Phishing Type", out var phish))
-            asset.phishingType = phish;
 
         asset.subjects = GetAllVariants(row, next, table, "Subject");
         asset.greetings = GetAllVariants(row, next, table, "Greeting");
@@ -92,6 +90,7 @@ public class DataImporter : ScriptableObject
         asset.part2s = GetAllVariants(row, next, table, "Part 2");
         asset.part3s = GetAllVariants(row, next, table, "Part 3");
         asset.signoffs = GetAllVariants(row, next, table, "Sign Off");
+        asset.phishing = GetAllVariants(row, next, table, "Phishing Type");
     }
 
     /// <summary>

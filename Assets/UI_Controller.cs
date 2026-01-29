@@ -9,6 +9,8 @@ public class UI_Controller : MonoBehaviour
     public GameObject email;
     public GameObject notes;
     public GameObject archive;
+    public GameObject bar;
+    public GameObject reply;
 
     public void openEmail()
     {
