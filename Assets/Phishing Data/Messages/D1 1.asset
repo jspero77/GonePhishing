@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 1
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: Training'
+  greetings:
+  - Hello Admin! Today, there is an uptick of urgent phishing scams, and a general
+    increase in scams that are too good to be true! These are things you might know,
+    like a bunch of free money or a car! Also they could threaten you to accept these
+    fast, so please keep an eye out!
+  part1s:
+  - Why do we need this again?
+  part2s:
+  - Piss Off!
+  part3s:
+  - Thank You!
+  signoffs:
+  - Hi
+  phishing:
+  - No

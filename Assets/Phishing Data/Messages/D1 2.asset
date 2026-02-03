@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 2
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: BruceS@NBC.com
+
+    Heads Up!'
+  greetings:
+  - "Hello admin, I hope you\u2019re doing well. Recently, our company has been under
+    some intense public scrutiny due to some\u2026 ethical concerns. As a result,
+    some internet sleuths may be trying to breach the system. Keep an eye out for
+    anything suspicious, like something needing to get done now, or anything that
+    seems too good to be true. Good luck."
+  part1s:
+  - Ok, thank you!
+  part2s:
+  - "I don\u2019t need you telling me how to do my job, the AI already pesters me."
+  part3s:
+  - "I\u2019ll keep an eye out."
+  signoffs:
+  - Hi
+  phishing:
+  - No
