@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 11
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - "From: Grace@NBC.com \nhlep me"
+  greetings:
+  - "Yo dude, I got this email from this company, it\u2019s got some sick deals about
+    computers on sale! I think we should take a look actually, it\u2019s like top
+    end hardware for like 99% off! And it\u2019s got a 2 for one deal! What a steal!
+    And it\u2019s not from RamPC! It says we gotta act quick though, the sale only
+    lasts 12 hours. I\u2019m gonna buy some stuff for our department with the company
+    card."
+  part1s:
+  - "Gully, this seems way too good to be true, don\u2019t buy anything."
+  part2s:
+  - "Hang on, take a look at RamPC and see if they\u2019re legit, then buy it."
+  part3s:
+  - Sounds good, let me know how it goes!
+  signoffs:
+  - Hi
+  phishing:
+  - No

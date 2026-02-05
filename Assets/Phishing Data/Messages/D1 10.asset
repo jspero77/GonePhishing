@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 10
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - "From: Grace@NBC.com \nhlep me"
+  greetings:
+  - "Hey I have this error on my computer that I emailed you about two weeks ago
+    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
+    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
+    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
+    out of space on my cloud storage, and I can\u2019t save anything!\nMAKE IT GO
+    AWAY!!"
+  part1s:
+  - "Jeez calm down Jenelle, I\u2019ll take a look now."
+  part2s:
+  - Jenelle you sure this is meant for me? Seems super aggressive.
+  part3s:
+  - This is spam right?
+  signoffs:
+  - Hi
+  phishing:
+  - No

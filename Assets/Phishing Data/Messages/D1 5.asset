@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 5
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: Warning@CamGuard.com
+
+    WARNING!!! - SOFTWARE COMPROMISED!'
+  greetings:
+  - Good day we are looking to buy your skills from our competitors and are willing
+    to offer 120k as your starting salary, and a signing bonus of 30k. If this interest
+    you in quitting your job then have a look at the contract attached to this email
+    and come down to our location. We need a response within 48h, or we WILL move
+    on with a different candidate.
+  part1s:
+  - "Ok, I\u2019ll look at it and reply soon!"
+  part2s:
+  - Can I get more info?
+  part3s:
+  - "I didn\u2019t apply for no job recently?"
+  signoffs:
+  - Hi
+  phishing:
+  - Hi

@@ -49,3 +49,19 @@ MonoBehaviour:
     - collection: {fileID: 11400000, guid: b53f223eafa43da49b876170463aedd3, type: 2}
       count: 1
     shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 701b5c4f08998af4fbefd5b7eb61d991, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 267652819b0092e4180018bdc59f96d0, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 609c69bc4fee2f5459061370661856a6, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: c27dad3b215a62840b1e57b2be4dbd71, type: 2}
+      count: 1
+    shuffle: 0

@@ -17,17 +17,47 @@ MonoBehaviour:
   subjects:
   - "From: Grace@NBC.com \nhlep me"
   greetings:
-  - "hi i need a new phone my one is freezing all the time. i download this app and
-    it start laging my phone. it ask for login information too but i dont know what
-    to put in can you help me please. also i got this email from you guys. it asked
-    about a subscription but i dont remember a subscription. help me cancel it too
-    please. \n\ngrace"
+  - "I\u2019m sending this email to you because we\u2019ve had this weird issue recently
+    where the computer we\u2019re using for the audio production locks up and we
+    have to wait like 40 seconds to start using it again. I don\u2019t want any downtime
+    during the times we\u2019re broadcasting, so maybe see about procuring an upgrade
+    for our computer or seeing what\u2019s wrong?\nKindly,\nIvan"
+  - "Hey I have this error on my computer that I emailed you about two weeks ago
+    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
+    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
+    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
+    out of space on my cloud storage, and I can\u2019t save anything!\nMAKE IT GO
+    AWAY!!"
+  - "Yo dude, I got this email from this company, it\u2019s got some sick deals about
+    computers on sale! I think we should take a look actually, it\u2019s like top
+    end hardware for like 99% off! And it\u2019s got a 2 for one deal! What a steal!
+    And it\u2019s not from RamPC! It says we gotta act quick though, the sale only
+    lasts 12 hours. I\u2019m gonna buy some stuff for our department with the company
+    card."
+  - "You\u2019ve spent over 250,000 thousand dollars today. Are you sure this is
+    you? We\u2019ve locked your card, please contact us if this is you."
+  - I am writing to you as we have on your files that a 100,000 car from Grotti was
+    bought in your name and you have not paid any taxes for this. If this is not
+    you then please respond.
   part1s:
-  - Hi
+  - "I\u2019ll get back to you soon, and I\u2019ll ask management if they can expense
+    it."
+  - "Jeez calm down Jenelle, I\u2019ll take a look now."
+  - "Gully, this seems way too good to be true, don\u2019t buy anything."
+  - I think one of our coworkers just fell for a phishing scam.
+  - I think your files are wrong or messed up cause I never bought a car.
   part2s:
-  - Hi
+  - "I\u2019ll take a look at the computer later."
+  - Jenelle you sure this is meant for me? Seems super aggressive.
+  - "Hang on, take a look at RamPC and see if they\u2019re legit, then buy it."
+  - "This isn\u2019t real."
+  - "Ask Bruce, looks like something he\u2019d buy, not me."
   part3s:
-  - Hi
+  - "Ivan, you just told me you didn\u2019t need a new computer a few months ago."
+  - This is spam right?
+  - Sounds good, let me know how it goes!
+  - This is not us, find someone else.
+  - "Find someone else, I\u2019m too broke for a Grotti"
   signoffs:
   - Hi
   phishing:

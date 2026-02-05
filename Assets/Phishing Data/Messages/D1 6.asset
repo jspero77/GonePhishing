@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 6
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: Hiring@NRB.com
+
+    Job Offer'
+  greetings:
+  - "Looping in everyone here, just got an email asking about a free gift card, can\u2019t
+    say I recall any raffles around here? Maybe I don\u2019t go outside enough though,
+    and one of you know about this?"
+  part1s:
+  - "Can\u2019t say I do, though I did just get an email asking for some employee
+    info."
+  part2s:
+  - "Nah, not sure about that one, Maybe Grace knows, she\u2019s a real penny pincher."
+  part3s:
+  - Jenelle might know, she does get around more than us.
+  signoffs:
+  - Hi
+  phishing:
+  - Hi

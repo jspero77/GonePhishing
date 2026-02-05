@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7d24bdf177f7bf4180132ae01a3606f, type: 3}
-  m_Name: Professional 2
+  m_Name: D1 10
   m_EditorClassIdentifier: 
   emails:
-  - {fileID: 11400000, guid: f84629f30ede2444d980569a8ab3868f, type: 2}
+  - {fileID: 11400000, guid: 0c9f2699956d09449ab3ba35187b46b6, type: 2}
