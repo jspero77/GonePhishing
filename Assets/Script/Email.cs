@@ -12,6 +12,7 @@ public class Email : MonoBehaviour
     public TextMeshProUGUI o1;
     public TextMeshProUGUI o2;
     public TextMeshProUGUI o3;
+    public TextMeshProUGUI error;
     public string greetings;
     public string part1;
     public string part2;
@@ -30,7 +31,9 @@ public class Email : MonoBehaviour
     public int emailNumber;
     public string playerName;
     public GameObject reply;
+    public GameObject wrong;
     public int score = 0;
+    public int right = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,18 +61,47 @@ public class Email : MonoBehaviour
 
     public void accept()
     {
-        if (phishes == "No")
+        if (phishes != "No")
         {
-            score++;
+            right = 1;
+        }
+        else
+        {
+            right = 0;
         }
         reply.SetActive(true);
     }
     public void deny()
     {
-        if (phishes != "No")
+        if (phishes == "No")
         {
-            score++;
+            right = 2;
         }
+        else
+        {
+            right = 0;
+        }
+        if (right > 0)
+        {
+            if (right == 1)
+            {
+                error.text = "You have accepted an e-mail with the following red flags:" + "\n" + phishes + "\n" + "Do now allow this failure to repeat!";
+            }
+            else
+            {
+                error.text = "You have flagged a perfectly safe e-mail" + "\n" + "Do now allow this to happen again!";
+            }
+            wrong.SetActive(true);
+        }
+        else
+        {
+            nextEmail();
+        }
+
+    }
+    public void nextEmail()
+    {
+        reply.SetActive(false);
         emailNumber++;
         if (emailNumber >= list.Count)
         {
@@ -77,17 +109,28 @@ public class Email : MonoBehaviour
 
         }
         populateEmail(emailNumber);
+        wrong.SetActive(false);
     }
+
     public void Reply()
     {
-        emailNumber++;
-        if (emailNumber >= list.Count)
-        {
-            emailNumber = 0;
 
+        if (right > 0)
+        {
+            if (right == 1)
+            {
+                error.text = "You have accepted an e-mail with the following red flags:"+"\n"+phishes+"\n"+"Do now allow this failure to repeat!";
+            }
+            else
+            {
+                error.text = "You have flagged a perfectly safe e-mail" + "\n" + "Do now allow this to happen again!";
+            }
+                wrong.SetActive(true);
         }
-        reply.SetActive(false);
-        populateEmail(emailNumber);
+        else
+        {
+            nextEmail();
+        }
     }
 
 

@@ -12,6 +12,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject bar;
     public GameObject reply;
     public GameObject start;
+    public int right = 0;
 
     public void startGame()
     {
@@ -27,6 +28,10 @@ public class UI_Controller : MonoBehaviour
     public void closeEmail()
     {
         email.SetActive(false);
+    }
+    public void closeResponses()
+    {
+        reply.SetActive(false);
     }
 
     public void openNotes()
