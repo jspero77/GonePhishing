@@ -26,6 +26,7 @@ MonoBehaviour:
   - "You\u2019re joking right?"
   part3s:
   - How the hell am I gonna let management know.
-  signoffs: []
+  signoffs:
+  - Hi
   phishing:
   - No

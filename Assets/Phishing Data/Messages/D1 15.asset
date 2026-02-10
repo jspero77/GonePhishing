@@ -38,6 +38,7 @@ MonoBehaviour:
   part3s:
   - Certainly interesting, we gotta keep our eyes peeled for stuff like this for
     sure.
-  signoffs: []
+  signoffs:
+  - Hi
   phishing:
   - No
