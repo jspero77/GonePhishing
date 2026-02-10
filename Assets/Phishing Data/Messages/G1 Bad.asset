@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: D1 12
+  m_Name: G1 Bad
   m_EditorClassIdentifier: 
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - 'From: Gully@NBC.com
+
+    Its over bro'
   greetings:
-  - "You\u2019ve spent over 250,000 thousand dollars today. Are you sure this is
-    you? We\u2019ve locked your card, please contact us if this is you."
+  - "Oh shit dude, I think I fell for a scam\u2026 I\u2019m done for.."
   part1s:
-  - I think one of our coworkers just fell for a phishing scam.
+  - I warned you!
   part2s:
-  - "This isn\u2019t real."
+  - "You\u2019re joking right?"
   part3s:
-  - This is not us, find someone else.
-  signoffs:
-  - Hi
+  - How the hell am I gonna let management know.
+  signoffs: []
   phishing:
-  - Urgent or Threatening Language
+  - No

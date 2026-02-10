@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5639a95024bfb344a90336dbc26d8c7e, type: 3}
+  m_Name: Day1N
+  m_EditorClassIdentifier: 
+  blocks:
+  - pulls:
+    - collection: {fileID: 11400000, guid: 8c615d6b9d7001443baf9838e049cb16, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 53ffd6022b34b46408938ea3859f034c, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 9c534623a47aced4e82551db7dbd4a65, type: 2}
+      count: 1
+    shuffle: 0

@@ -10,22 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: D1 12
+  m_Name: G1 Good
   m_EditorClassIdentifier: 
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - 'From: Gully@NBC.com
+
+    That would have been dumb'
   greetings:
-  - "You\u2019ve spent over 250,000 thousand dollars today. Are you sure this is
-    you? We\u2019ve locked your card, please contact us if this is you."
+  - "Oh dude for real? Thank god I didn\u2019t put anything in yet. That coulda been
+    bad coulda gotten fired or something!"
   part1s:
-  - I think one of our coworkers just fell for a phishing scam.
+  - "At least I got to you in time, don\u2019t do it again."
   part2s:
-  - "This isn\u2019t real."
+  - "Gully please, my heart. I don\u2019t wanna think about the consequences."
   part3s:
-  - This is not us, find someone else.
-  signoffs:
-  - Hi
+  - Hoolly shit, thank god you listened to me.
+  signoffs: []
   phishing:
-  - Urgent or Threatening Language
+  - No

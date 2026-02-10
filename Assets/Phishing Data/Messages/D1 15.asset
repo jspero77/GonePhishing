@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 15
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  greetings:
+  - "Just got word from a old place I worked at that they had to shut down the company
+    due to a bunch of files being leaked. A bunch of people just lost there jobs
+    due to some annoying person who decide to get there hands on files and leak them
+    to the world. Goes to show you just how much of a danger these people are. Apparently
+    some hacker from another company managed to get into their systems due to a tech
+    manager opening a email and clicking a link that installed malware. From there
+    they leaked everything to the company that hired them. We gotta be aware of stuff
+    like this, we can\u2019t be running into the same crap."
+  part1s:
+  - Agreed, the world is a scary place and we gotta keep vigilant.
+  part2s:
+  - "Keep me posted on this, that\u2019s something to watch over the next while."
+  part3s:
+  - Certainly interesting, we gotta keep our eyes peeled for stuff like this for
+    sure.
+  signoffs: []
+  phishing:
+  - No

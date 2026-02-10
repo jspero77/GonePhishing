@@ -12,12 +12,19 @@ public class UI_Controller : MonoBehaviour
     public GameObject bar;
     public GameObject reply;
     public GameObject start;
+    public GameObject day1;
     public int right = 0;
 
     public void startGame()
     {
-        start.SetActive(false);
+        day1.SetActive(false);
         bar.SetActive(true);
+    }
+
+    public void Day1()
+    {
+        start.SetActive(false);
+        day1.SetActive(true);
     }
 
     public void openEmail()

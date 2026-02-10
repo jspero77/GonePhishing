@@ -26,6 +26,8 @@ public class Email : MonoBehaviour
     public EmailCollection emailCollectionGood;
     public EmailCollection emailCollectionBad;
     public EmailSequence sequence;
+    public EmailSequence day1gb;
+    public EmailSequence day1gg;
     public SenderDirectory directory;
     List<EmailData> list;
     public int emailNumber;
@@ -34,6 +36,8 @@ public class Email : MonoBehaviour
     public GameObject wrong;
     public int score = 0;
     public int right = 0;
+    public int step = 0;
+    public int gully = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -83,8 +87,13 @@ public class Email : MonoBehaviour
         }
         if (right > 0)
         {
+            if (signoff == "g1")
+            {
+                gully++;
+            }
             if (right == 1)
             {
+
                 error.text = "You have accepted an e-mail with the following red flags:" + "\n" + phishes + "\n" + "Do now allow this failure to repeat!";
             }
             else
@@ -105,7 +114,20 @@ public class Email : MonoBehaviour
         emailNumber++;
         if (emailNumber >= list.Count)
         {
+            if (step == 0 && gully == 0)
+            {
+                list = new List<EmailData>();
+                day1gg.GetSequence(list);
+                populateEmail(0);
+            }
+            if (step == 0 && gully == 1)
+            {
+                list = new List<EmailData>();
+                day1gb.GetSequence(list);
+                populateEmail(0);
+            }
             emailNumber = 0;
+            step++;
 
         }
         populateEmail(emailNumber);
@@ -117,6 +139,7 @@ public class Email : MonoBehaviour
 
         if (right > 0)
         {
+            
             if (right == 1)
             {
                 error.text = "You have accepted an e-mail with the following red flags:"+"\n"+phishes+"\n"+"Do now allow this failure to repeat!";
