@@ -15,20 +15,18 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Hiring@NRB.com
+  - 'From: BruceS@NBC.com
 
-    Job Offer'
+    BRING ME MY CHAIR BACK NOOOOOW'
   greetings:
-  - "Looping in everyone here, just got an email asking about a free gift card, can\u2019t
-    say I recall any raffles around here? Maybe I don\u2019t go outside enough though,
-    and one of you know about this?"
+  - "TO ALL EMPLOYEES \nWHO THE HELL STOLE MY CHAIR FROM MY OFFICE. REPLY NOW OR
+    I WILL FIND YOU AND BREAK YOUR CHAIR!"
   part1s:
-  - "Can\u2019t say I do, though I did just get an email asking for some employee
-    info."
+  - Uhh not me.
   part2s:
-  - "Nah, not sure about that one, Maybe Grace knows, she\u2019s a real penny pincher."
+  - It was grace.
   part3s:
-  - Jenelle might know, she does get around more than us.
+  - It was Ivan.
   signoffs:
   - Hi
   phishing:

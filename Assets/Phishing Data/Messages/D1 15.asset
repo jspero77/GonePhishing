@@ -15,29 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
-  - "From: Grace@NBC.com \nhlep me"
+  - 'From: Jenelle@NBC.com
+
+    Offer Code Legit?'
   greetings:
-  - "Just got word from a old place I worked at that they had to shut down the company
-    due to a bunch of files being leaked. A bunch of people just lost there jobs
-    due to some annoying person who decide to get there hands on files and leak them
-    to the world. Goes to show you just how much of a danger these people are. Apparently
-    some hacker from another company managed to get into their systems due to a tech
-    manager opening a email and clicking a link that installed malware. From there
-    they leaked everything to the company that hired them. We gotta be aware of stuff
-    like this, we can\u2019t be running into the same crap."
+  - Hi Admin, thanks for *finally* listening to me and my problems, I expect this
+    error to go away soon right? Anyway, I'm emailing for a 48h offer code we got
+    from these guys, called Baggy Baggutes. They seem legit but hard to know. Can
+    you verify this for me? I did some digging but the spot seems local, unless the
+    website was fake or something
   part1s:
-  - Agreed, the world is a scary place and we gotta keep vigilant.
+  - Just got an email from them, they're fake.
   part2s:
-  - "Keep me posted on this, that\u2019s something to watch over the next while."
+  - They're a fake company. Received an email earlier from them for something else.
+    Keep vigilant on these guys, and maybe try digging deeper?
   part3s:
-  - Certainly interesting, we gotta keep our eyes peeled for stuff like this for
-    sure.
+  - Think they're legit, should be good.
   signoffs:
   - Hi
   phishing:

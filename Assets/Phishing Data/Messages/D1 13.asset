@@ -15,17 +15,17 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - "From: FinanceDept@NBR.com \nUrgent: Why did you buy a car"
   greetings:
   - I am writing to you as we have on your files that a 100,000 car from Grotti was
-    bought in your name and you have not paid any taxes for this. If this is not
-    you then please respond.
+    bought in your name and you have not paid any taxes for this. Let us know ASAP
+    if this is you, otherwise we will pursue legal action.
   part1s:
   - I think your files are wrong or messed up cause I never bought a car.
   part2s:
   - "Ask Bruce, looks like something he\u2019d buy, not me."
   part3s:
-  - "Find someone else, I\u2019m too broke for a Grotti"
+  - "Find someone else, I\u2019m too broke for a Grotti."
   signoffs:
   - Hi
   phishing:

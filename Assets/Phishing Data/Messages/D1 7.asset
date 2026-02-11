@@ -15,24 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Jenelle@NBC.com  \nStupid IT! Fix this now!!!"
+  - 'From: RemoteAccessBruceS@NBO.com
+
+    Need Access NOW!'
   greetings:
-  - "Before I clock out for the day, I\u2019ve been checking the status on the cameras
-    cause the system keeps flagging an unauthorized connection. Problem is, it won\u2019t
-    tell more details and I can\u2019t do anything with out this dumb company we
-    hired to send someone to come look at it so our contract doesn\u2019t break.
-    This is dumb as hell, and it\u2019s just cause we wanted to save money. Just
-    don\u2019t relay on the cameras to capture everything for awhile."
+  - 'Hello Admin!
+
+    I would like to request all documents related to networking,
+    and server credentials be handed to me through this email. This should be done
+    as soon as you read this email without question.'
   part1s:
-  - "Hmm, I\u2019ll take a look tomorrow. Think I\u2019ll send an email companywide
-    as well."
+  - "Ok, I\u2019ll send them over soon."
   part2s:
-  - "Gotcha, I\u2019ll keep note of it. Probably going to send an email to everyone
-    as well."
+  - "Bruce why aren\u2019t you using your email? Is this spam?"
   part3s:
-  - "Let me take a look then I\u2019ll ask the contractor. Likely will send an email
-    letting everyone know tom as well."
+  - Who are you?
   signoffs:
   - Hi
   phishing:
-  - No
+  - Urgent or Threatening Language

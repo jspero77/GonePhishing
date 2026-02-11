@@ -15,35 +15,21 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Baggybaguettes@gmail.com
-
-    Bakery On The News?'
+  - "From: Ivan@NBC.com \nNeed some assistance"
   greetings:
-  - 'Hello we were wondering if you would be interested in having a locally owned
-    bakery come onto your show. We are willing to supply the crew with free pastries
-    and bread during shooting. You will find our business info and menu attached
-    in this email. Hope to hear from you soon and let us know if you are interested
-    in this partnership.
-
-
-    Regards,
-
-    Head Chef Mary
-
-
-    Attachments:
-
-    Menu.pdf
-
-
-    BaggyBaguettesInfo.exe'
+  - "I\u2019m sending this email to you because we\u2019ve had this weird issue recently
+    where the computer we\u2019re using for the audio production locks up and we
+    have to wait like 40 seconds to start using it again. I don\u2019t want any downtime
+    during the times we\u2019re broadcasting, so maybe see about procuring an upgrade
+    for our computer or seeing what\u2019s wrong?\nKindly,\nIvan"
   part1s:
-  - No one does business for free.
+  - "I\u2019ll get back to you soon, and I\u2019ll ask management if they can expense
+    it."
   part2s:
-  - "Sounds great! We\u2019ll let you know more later."
+  - "I\u2019ll take a look at the computer later."
   part3s:
-  - "I\u2019m not sure if this is spam or what, please email back if not."
+  - "Ivan, you just told me you didn\u2019t need a new computer a few months ago."
   signoffs:
   - Hi
   phishing:
-  - Suspicious Attatchments
+  - No

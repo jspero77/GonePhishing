@@ -15,20 +15,18 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - "From: Ivan@NBC.com \nGift Card Scam?"
   greetings:
-  - "Hey I have this error on my computer that I emailed you about two weeks ago
-    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
-    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
-    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
-    out of space on my cloud storage, and I can\u2019t save anything!\nMAKE IT GO
-    AWAY!!"
+  - "Looping in everyone here, just got an email asking about a free gift card, can\u2019t
+    say I recall any raffles around here? Maybe I don\u2019t go outside enough(or
+    socialize) though, and one of you know about this?"
   part1s:
-  - "Jeez calm down Jenelle, I\u2019ll take a look now."
+  - "Can\u2019t say I do, though I did just get an email asking for some employee
+    info."
   part2s:
-  - Jenelle you sure this is meant for me? Seems super aggressive.
+  - "No, not sure about that one, Maybe Grace knows, she\u2019s a real penny pincher."
   part3s:
-  - This is spam right?
+  - Jenelle might know, she does get around more than us.
   signoffs:
   - Hi
   phishing:

@@ -15,10 +15,11 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - "From: NovaBank@Notify.com \nUrgent: Large Sum of Money Spent, Is This You?"
   greetings:
   - "You\u2019ve spent over 250,000 thousand dollars today. Are you sure this is
-    you? We\u2019ve locked your card, please contact us if this is you."
+    you? We\u2019ve locked your card, please contact us if this is you. Otherwise
+    we will call the police on you within 12h."
   part1s:
   - I think one of our coworkers just fell for a phishing scam.
   part2s:

@@ -15,22 +15,20 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Warning@CamGuard.com
-
-    WARNING!!! - SOFTWARE COMPROMISED!'
+  - "From: Grace@NBC.com \nhlep me"
   greetings:
-  - Good day we are looking to buy your skills from our competitors and are willing
-    to offer 120k as your starting salary, and a signing bonus of 30k. If this interest
-    you in quitting your job then have a look at the contract attached to this email
-    and come down to our location. We need a response within 48h, or we WILL move
-    on with a different candidate.
+  - "\n\nHi dear, i need a new phone my one is freezing all the time. I download
+    this app and it start lagging my phone. It asks for login information to but
+    i dont know what to put in can you help me please. Also i got this email from
+    you guys. It asked about a subscription but i dont remember a subscription. Help
+    me cancel it too please. \n\n-Grace"
   part1s:
-  - "Ok, I\u2019ll look at it and reply soon!"
+  - "Ok Grace, I\u2019ll come by and take a look soon."
   part2s:
-  - Can I get more info?
+  - "Grace please punctuate and spell your emails, I don\u2019t know if this is you,"
   part3s:
-  - "I didn\u2019t apply for no job recently?"
+  - I think this is spam.
   signoffs:
   - Hi
   phishing:
-  - Urgent or Threatening Language
+  - No

@@ -15,20 +15,25 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: BruceS@NBC.com
+  - 'From: Ivan@NBC.com
 
-    BRING ME MY CHAIR BACK NOOOOOW'
+    Seedy World'
   greetings:
-  - 'TO ALL EMPLOYEES
-
-    WHO THE HELL STOLE MY CHAIR FROM MY OFFICE. REPLY NOW
-    OR I WILL FIND YOU AND BREAK YOUR CHAIR!'
+  - "Just got word from a old place I worked at that they had to shut down the company
+    due to a bunch of files being leaked. A bunch of people just lost there jobs
+    due to some annoying person who decide to get there hands on files and leak them
+    to the world. Goes to show you just how much of a danger these people are. Apparently
+    some hacker from another company managed to get into their systems due to a tech
+    manager opening a email and clicking a link that installed malware. From there
+    they leaked everything to the company that hired them. We gotta be aware of stuff
+    like this, we can\u2019t be running into the same crap."
   part1s:
-  - Uhh not me.
+  - Agreed, the world is a scary place and we gotta keep vigilant.
   part2s:
-  - It was grace.
+  - "Keep me posted on this, that\u2019s something to watch over the next while."
   part3s:
-  - It was Ivan.
+  - Certainly interesting, we gotta keep our eyes peeled for stuff like this for
+    sure.
   signoffs:
   - Hi
   phishing:

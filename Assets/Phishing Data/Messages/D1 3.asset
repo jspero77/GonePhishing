@@ -15,22 +15,21 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: RemoteAccessBruceS@NBO.com
-
-    Need Access NOW!'
+  - "From: Jenelle@NBC.com  \nStupid IT! Fix this now!!!"
   greetings:
-  - 'Hello Admin!
-
-    I would like to request all documents related to networking,
-    and server credentials be handed to me through this email. This should be done
-    as soon as you read this email without question.'
+  - "Hey I have this error on my computer that I emailed you about two weeks ago
+    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
+    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
+    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
+    out of space on my cloud storage, and I can\u2019t save anything!\nMAKE IT GO
+    AWAY!!"
   part1s:
-  - "Ok, I\u2019ll send them over soon."
+  - "Jeez calm down Jenelle, I\u2019ll take a look now."
   part2s:
-  - "Bruce why aren\u2019t you using your email? Is this spam?"
+  - Jenelle you sure this is meant for me? Seems super aggressive.
   part3s:
-  - Who are you?
+  - This is spam right?
   signoffs:
   - Hi
   phishing:
-  - Urgent or Threatening Language
+  - No

@@ -15,21 +15,35 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - 'From: Baggybaguettes@gmail.com
+
+    Bakery On The News?'
   greetings:
-  - "Yo dude, I got this email from this company, it\u2019s got some sick deals about
-    computers on sale! I think we should take a look actually, it\u2019s like top
-    end hardware for like 99% off! And it\u2019s got a 2 for one deal! What a steal!
-    And it\u2019s not from RamPC! It says we gotta act quick though, the sale only
-    lasts 12 hours. I\u2019m gonna buy some stuff for our department with the company
-    card."
+  - 'Hello we were wondering if you would be interested in having a locally owned
+    bakery come onto your show. We are willing to supply the crew with free pastries
+    and bread during shooting. You will find our business info and menu attached
+    in this email. Hope to hear from you soon and let us know if you are interested
+    in this partnership.
+
+
+    Regards,
+
+    Head Chef Mary
+
+
+    Attachments:
+
+    Menu.pdf
+
+
+    BaggyBaguettesInfo.exe'
   part1s:
-  - "Gully, this seems way too good to be true, don\u2019t buy anything."
+  - No one does business for free.
   part2s:
-  - "Hang on, take a look at RamPC and see if they\u2019re legit, then buy it."
+  - "Sounds great! We\u2019ll let you know more later."
   part3s:
-  - Sounds good, let me know how it goes!
+  - "I\u2019m not sure if this is spam or what, please email back if not."
   signoffs:
   - g1
   phishing:
-  - No
+  - Suspicious Attatchments

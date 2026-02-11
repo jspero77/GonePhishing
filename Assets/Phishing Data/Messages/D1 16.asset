@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 16
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - "From: Ivan@NBC.com \nMysterious Camera Connection"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  - "From: Grace@NBC.com \nhlep me"
+  greetings:
+  - "Before I clock out for the day, I\u2019ve been checking the status on the cameras
+    cause the system keeps flagging an unauthorized connection. Problem is, it won\u2019t
+    tell more details and I can\u2019t do anything with out this dumb company we
+    hired to send someone to come look at it so our contract doesn\u2019t break.
+    This is dumb as hell, and it\u2019s just cause we wanted to save money. Just
+    don\u2019t relay on the cameras to capture everything for awhile."
+  part1s:
+  - "Hmm, I\u2019ll take a look tomorrow.  Think I\u2019ll send an email companywide
+    as well."
+  part2s:
+  - "Gotcha, I\u2019ll keep note of it. Probably going to send an email to everyone
+    as well."
+  part3s:
+  - "Let me take a look then I\u2019ll ask the contractor. Likely will send an email
+    letting everyone know tom as well."
+  signoffs:
+  - Hi
+  phishing:
+  - No

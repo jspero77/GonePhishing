@@ -15,21 +15,23 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - 'From: Gully@NBC.com
+
+    Sick PC Deal'
   greetings:
-  - "I\u2019m sending this email to you because we\u2019ve had this weird issue recently
-    where the computer we\u2019re using for the audio production locks up and we
-    have to wait like 40 seconds to start using it again. I don\u2019t want any downtime
-    during the times we\u2019re broadcasting, so maybe see about procuring an upgrade
-    for our computer or seeing what\u2019s wrong?\nKindly,\nIvan"
+  - "Yo dude, I got this email from this company, it\u2019s got some sick deals about
+    computers on sale! I think we should take a look actually, it\u2019s like top
+    end hardware for like 99% off! And it\u2019s got a 2 for one deal! What a steal!
+    And it\u2019s not from RamPC! It says we gotta act quick though, the sale only
+    lasts 12 hours. I\u2019m gonna buy some stuff for our department with the company
+    card."
   part1s:
-  - "I\u2019ll get back to you soon, and I\u2019ll ask management if they can expense
-    it."
+  - "Gully, this seems way too good to be true, don\u2019t buy anything."
   part2s:
-  - "I\u2019ll take a look at the computer later."
+  - "Hang on, take a look at RamPC and see if they\u2019re legit, then buy it."
   part3s:
-  - "Ivan, you just told me you didn\u2019t need a new computer a few months ago."
+  - Sounds good, let me know how it goes!
   signoffs:
-  - Hi
+  - g1
   phishing:
   - No

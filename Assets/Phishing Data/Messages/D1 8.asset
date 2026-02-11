@@ -15,22 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Ivan@NBC.com \nNeed some assistance"
-  greetings:
-  - 'hi i need a new phone my one is freezing all the time. i download this app and
-    it start laging my phone. it ask for login information too but i dont know what
-    to put in can you help me please. also i got this email from you guys. it asked
-    about a subscription but i dont remember a subscription. help me cancel it too
-    please.
+  - 'From: Hiring@NRB.com
 
-    grace'
+    Job Offer'
+  greetings:
+  - Good day we are looking to buy your skills from our competitors and are willing
+    to offer 120k as your starting salary, and a signing bonus of 30k. If this interest
+    you in quitting your job then have a look at the contract attached to this email
+    and come down to our location. We need a response within 48h, or we WILL move
+    on with a different candidate.
   part1s:
-  - "Ok Grace, I\u2019ll come by and take a look soon."
+  - "Ok, I\u2019ll look at it and reply soon!"
   part2s:
-  - "Grace please punctuate and spell your emails, I don\u2019t know if this is you,"
+  - Can I get more info?
   part3s:
-  - I think this is spam.
+  - "I didn\u2019t apply for no job recently?"
   signoffs:
   - Hi
   phishing:
-  - No
+  - Urgent or Threatening Language

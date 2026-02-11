@@ -25,3 +25,7 @@ MonoBehaviour:
     - collection: {fileID: 11400000, guid: 9c534623a47aced4e82551db7dbd4a65, type: 2}
       count: 1
     shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: b59478de87963c64ca86adf31d88fc81, type: 2}
+      count: 1
+    shuffle: 0
