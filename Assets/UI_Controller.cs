@@ -13,6 +13,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject reply;
     public GameObject start;
     public GameObject day1;
+    public GameObject intro;
     public int right = 0;
 
     public void startGame()
@@ -24,7 +25,13 @@ public class UI_Controller : MonoBehaviour
     public void Day1()
     {
         start.SetActive(false);
+        intro.SetActive(true);
+    }
+
+    public void Intro()
+    {
         day1.SetActive(true);
+        intro.SetActive(false);
     }
 
     public void openEmail()

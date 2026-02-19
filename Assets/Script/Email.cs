@@ -12,11 +12,22 @@ public class Email : MonoBehaviour
     public TextMeshProUGUI o2;
     public TextMeshProUGUI o3;
     public TextMeshProUGUI error;
+    public TextMeshProUGUI preview1;
+    public TextMeshProUGUI preview2;
+    public TextMeshProUGUI preview3;
+    public TextMeshProUGUI preview4;
+    public TextMeshProUGUI preview5;
+    public TextMeshProUGUI preview6;
     public string greetings;
     public string part1;
     public string part2;
     public string part3;
     public string subject;
+    public string subject1;
+    public string subject2;
+    public string subject3;
+    public string subject4;
+    public string subject5;
     public string Q1;
     public string phishes;
     public string signoff;
@@ -37,12 +48,17 @@ public class Email : MonoBehaviour
     public int right = 0;
     public int step = 0;
     public int gully = 0;
+    public int button = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         list = new List<EmailData>();
         sequence.GetSequence(list);
         populateEmail(0);
+        populatePreview(0);
+        emailNumber = 0;
+        score = 0;
+        button = 1;
     }
     /*
     // Update is called once per frame
@@ -107,10 +123,74 @@ public class Email : MonoBehaviour
         }
 
     }
+
+    public void Button1()
+    {
+        score = emailNumber;
+        populateEmail(score);
+        button = 1;
+    }
+    public void Button2()
+    {
+        score = emailNumber+1;
+        populateEmail(score);
+        button = 2;
+    }
+    public void Button3()
+    {
+        score = emailNumber+2;
+        populateEmail(score);
+        button = 3;
+    }
+    public void Button4()
+    {
+        score = emailNumber+3;
+        populateEmail(score);
+        button = 4;
+    }
+    public void Button5()
+    {
+        score = emailNumber+4;
+        populateEmail(score);
+        button = 5;
+    }
+    public void Button6()
+    {
+        score = emailNumber+5;
+        populateEmail(score);
+        button = 6;
+    }
     public void nextEmail()
     {
         reply.SetActive(false);
         emailNumber++;
+        score++;
+        score = Mathf.Min(score, list.Count);
+        if (button >= 6)
+        {
+            list[emailNumber+4] = list[emailNumber +3];
+
+        }
+        if (button >= 5)
+        {
+            list[emailNumber + 3] = list[emailNumber + 2];
+        }
+        if (button >= 4)
+        {
+            list[emailNumber + 2] = list[emailNumber + 1];
+        }
+        if (button >= 3)
+        {
+            list[emailNumber + 1] = list[emailNumber];
+        }
+        if (button >= 2)
+        {
+            list[emailNumber] = list[emailNumber-1];
+        }
+ 
+        
+       
+        
         if (emailNumber >= list.Count)
         {
             if (step == 0 && gully == 0)
@@ -126,10 +206,12 @@ public class Email : MonoBehaviour
                 populateEmail(0);
             }
             emailNumber = 0;
+            score = 0;
             step++;
 
         }
-        populateEmail(emailNumber);
+        populateEmail(score);
+        populatePreview(emailNumber);
         wrong.SetActive(false);
     }
 
@@ -155,13 +237,80 @@ public class Email : MonoBehaviour
         }
     }
 
-
-    public void populateEmail(int emailNumber)
+    public void populatePreview(int emailNumber)
     {
 
         this.emailNumber = emailNumber;
 
         var emailData = list[emailNumber];
+        subject = emailData.subjects[0];
+        preview1.text = subject;
+
+
+        if (emailNumber+1 < list.Count)
+        {
+            var emailData1 = list[emailNumber + 1];
+            subject1 = emailData1.subjects[0];
+            preview2.text = subject1;
+            if (emailNumber+2 < list.Count)
+            {
+
+                var emailData2 = list[emailNumber + 2];
+                subject2 = emailData2.subjects[0];
+                preview3.text = subject2;
+
+                if (emailNumber + 3 < list.Count)
+                {
+                    var emailData3 = list[emailNumber + 3];
+                    subject3 = emailData3.subjects[0];
+                    preview4.text = subject3;
+
+                    if (emailNumber + 4 < list.Count)
+                    {
+                        var emailData4 = list[emailNumber + 4];
+                        subject4 = emailData4.subjects[0];
+                        preview5.text = subject4;
+
+                        if (emailNumber + 5 < list.Count)
+                        {
+                            var emailData5 = list[emailNumber + 5];
+                            subject5 = emailData5.subjects[0];
+
+
+                            preview6.text = subject5;
+                        }
+                        else
+                        {
+                            preview6.text = null;
+                        }
+
+                    }
+                    else
+                    {
+                        preview5.text = null;
+                    }
+                }
+                else
+                {
+                    preview4.text = null;
+                }
+            }
+            else
+            {
+                preview3.text = null;
+            }
+        }
+        else
+        {
+            preview2.text = null;
+        }
+    }
+
+    public void populateEmail(int pablo)
+    {
+
+
+        var emailData = list[pablo];
         greetings = emailData.greetings[0];
         part1 = emailData.part1s[0];
         part2 = emailData.part2s[0];
@@ -169,9 +318,11 @@ public class Email : MonoBehaviour
         signoff = emailData.signoffs[0];
         subject = emailData.subjects[0];
         phishes = emailData.phishing[0];
+        
 
 
-
+        
+    
         text.text = greetings;
         textInfo.text = subject;
         o1.text = part1;
