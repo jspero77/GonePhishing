@@ -56,6 +56,10 @@ public class Email : MonoBehaviour
     public int step = 0;
     public int gully = 0;
     public int button = 0;
+    public GameObject archiver;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -271,6 +275,7 @@ public class Email : MonoBehaviour
 
     public void Reply()
     {
+        archiver.GetComponent<Archive>().Arch(list[score].subjects[0], list[score].greetings[0]);
 
         if (right > 0)
         {
