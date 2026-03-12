@@ -37,15 +37,3 @@ MonoBehaviour:
     - collection: {fileID: 11400000, guid: 88724e7fa62bb8245a710f1ce9bcc99f, type: 2}
       count: 1
     shuffle: 0
-  - pulls:
-    - collection: {fileID: 11400000, guid: ea96752c8cc3e344d8201e9b2615247c, type: 2}
-      count: 1
-    shuffle: 0
-  - pulls:
-    - collection: {fileID: 11400000, guid: 141fb6170e65379488c2228cf03545b0, type: 2}
-      count: 1
-    shuffle: 0
-  - pulls:
-    - collection: {fileID: 11400000, guid: b53f223eafa43da49b876170463aedd3, type: 2}
-      count: 1
-    shuffle: 0

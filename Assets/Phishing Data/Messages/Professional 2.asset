@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Professional 2
   m_EditorClassIdentifier: 
   senderType: 0
-  phishingType: 0
+  phishingType:
+  - No
   subjects:
   - "From: Ivan@NBC.com \nNeed some assistance"
   greetings:
@@ -30,5 +31,3 @@ MonoBehaviour:
   - Hi
   signoffs:
   - Hi
-  phishing:
-  - No

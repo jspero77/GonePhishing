@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: D1 4
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType:
+  - No
+  subjects:
+  - 'From: Baggybaguettes@gmail.com
+
+    Bakery On The News?'
+  greetings:
+  - "Hello we were wondering if you would be interested in having a locally owned
+    bakery come and deliver some baked goods for a promo spot on your radio. We are
+    willing to supply the crew with free pastries, bread, and some gift cards during
+    broadcasting. It won\u2019t cost you anything, we just want a spot on the air.
+    You will find our business info and menu attached in this email. Hope to hear
+    from you soon and let us know if you are interested in this partnership.\nRegards,\nHead
+    Chef Mary\n\nAttachments:\nMenu.pdf\n\nBaggyBaguettesInfo.exe"
+  part1s:
+  - No one does business for free.
+  part2s:
+  - "Sounds great! We\u2019ll let you know more later."
+  part3s:
+  - "I\u2019m not sure if this is spam or what, please email back if not."
+  signoffs:
+  - Hi

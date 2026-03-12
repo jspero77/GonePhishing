@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: Professional 1
   m_EditorClassIdentifier: 
   senderType: 0
-  phishingType: 0
+  phishingType:
+  - No
   subjects:
   - "From: Jenelle@NBC.com  \nStupid IT! Fix this now!!!"
-  greetings:
-  - "Hey I have this error on my computer that I emailed you about two weeks ago
-    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
-    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
-    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
-    out of space on my cloud storage, and I can\u2019t save anything!\n\nMAKE IT
-    GO AWAY!!!"
+  greetings: []
   part1s:
   - Hi
   part2s:
@@ -31,5 +26,3 @@ MonoBehaviour:
   - Hi
   signoffs:
   - Hi
-  phishing:
-  - No
