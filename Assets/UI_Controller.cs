@@ -14,6 +14,11 @@ public class UI_Controller : MonoBehaviour
     public GameObject start;
     public GameObject day1;
     public GameObject intro;
+    public GameObject intro1;
+    public GameObject intro2;
+    public GameObject intro3;
+    public GameObject intro4;
+    public GameObject intro5;
     public int right = 0;
 
     public void startGame()
@@ -22,6 +27,32 @@ public class UI_Controller : MonoBehaviour
         bar.SetActive(true);
     }
 
+    public void Intro1()
+    {
+        intro.SetActive(false);
+        intro1.SetActive(true);
+    }
+
+    public void Intro2()
+    {
+        intro1.SetActive(false);
+        intro2.SetActive(true);
+    }
+    public void Intro3()
+    {
+        intro2.SetActive(false);
+        intro3.SetActive(true);
+    }
+    public void Intro4()
+    {
+        intro3.SetActive(false);
+        intro4.SetActive(true);
+    }
+    public void Intro5()
+    {
+        intro4.SetActive(false);
+        intro5.SetActive(true);
+    }
     public void Day1()
     {
         start.SetActive(false);
@@ -31,7 +62,7 @@ public class UI_Controller : MonoBehaviour
     public void Intro()
     {
         day1.SetActive(true);
-        intro.SetActive(false);
+        intro5.SetActive(false);
     }
 
     public void openEmail()
