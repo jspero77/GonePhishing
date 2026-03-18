@@ -21,8 +21,18 @@ public class UI_Controller : MonoBehaviour
     public GameObject intro5;
     public GameObject intro6;
     public GameObject intro7;
+    public GameObject gameover;
     public int right = 0;
 
+
+    public void Resett()
+    {
+        gameover.SetActive(false);
+        bar.SetActive(false);
+        email.SetActive(false);
+        reply.SetActive(false);
+        day1 .SetActive(true);
+    }
     public void startGame()
     {
         day1.SetActive(false);

@@ -15,22 +15,20 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: RemoteAccessBruceS@NBO.com
+  - 'From: SP@XCEL.com
 
-    Need Access NOW!'
+    My bad!'
   greetings:
-  - 'Hello Admin!
-
-    I would like to request all documents related to networking,
-    and server credentials be handed to me through this email. This should be done
-    as soon as you read this email without question.'
+  - "Hey sorry for that email just now, we\u2019re testing an AI filter to get rid
+    of this menial work but looks like it got some emails through. Keep your eyes
+    peeled."
   part1s:
-  - "Ok, I\u2019ll send them over soon."
+  - Could of told me that before!
   part2s:
-  - "Bruce why aren\u2019t you using your email? Is this spam?"
+  - Good to know.
   part3s:
-  - Who are you?
+  - Should make sure that works beforehand.
   signoffs:
   - Hi
   phishing:
-  - Urgent or Threatening Language
+  - Np

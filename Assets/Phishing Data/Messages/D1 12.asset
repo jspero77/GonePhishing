@@ -15,18 +15,18 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: NovaBank@Notify.com \nUrgent: Large Sum of Money Spent, Is This You?"
+  - "From: Ivan@XCEL.com \nGift Card Scam?"
   greetings:
-  - "You\u2019ve spent over 250,000 thousand dollars today. Are you sure this is
-    you? We\u2019ve locked your card, please contact us if this is you. Otherwise
-    we will call the police on you within 12h."
+  - "Looping in everyone here, just got an email asking about a free gift card, can\u2019t
+    say I recall any raffles around here? Maybe I don\u2019t go outside enough(or
+    socialize) though, and one of you know about this?"
   part1s:
-  - I think one of our coworkers just fell for a phishing scam.
+  - "Can\u2019t say I do. Too broke to shop lol"
   part2s:
-  - "This isn\u2019t real."
+  - No, not sure about that one, Maybe Grace or Gully knows, they're real penny pinchers.
   part3s:
-  - This is not us, find someone else.
+  - Jenelle or Selina might know, they do get around more than us.
   signoffs:
   - Hi
   phishing:
-  - Urgent or Threatening Language
+  - No

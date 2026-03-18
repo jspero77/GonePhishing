@@ -15,18 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Ivan@NBC.com \nGift Card Scam?"
+  - 'From: Grace@XCEL.com
+
+    help me'
   greetings:
-  - "Looping in everyone here, just got an email asking about a free gift card, can\u2019t
-    say I recall any raffles around here? Maybe I don\u2019t go outside enough(or
-    socialize) though, and one of you know about this?"
+  - Hi dear, i need a new phone my one is freezing all the time. I download this
+    app and it start lagging my phone. It asks for login information to but i dont
+    know what to put in can you help me please. Also I want to know if there's any
+    discounts for uber, do you know if the company has any?
   part1s:
-  - "Can\u2019t say I do, though I did just get an email asking for some employee
-    info."
+  - "Ok Grace, I\u2019ll come by and take a look soon."
   part2s:
-  - "No, not sure about that one, Maybe Grace knows, she\u2019s a real penny pincher."
+  - Grace, your email is a bit hard to read, can you run a spellcheck on it next
+    time?
   part3s:
-  - Jenelle might know, she does get around more than us.
+  - Try turning it off and on again?cAlso ask Ivan about the discounts, I just got
+    here.
   signoffs:
   - Hi
   phishing:

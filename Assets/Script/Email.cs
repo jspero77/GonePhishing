@@ -42,7 +42,10 @@ public class Email : MonoBehaviour
     public Button b6;
     public EmailCollection emailCollectionGood;
     public EmailCollection emailCollectionBad;
-    public EmailSequence sequence;
+    public EmailSequence training;
+    public EmailSequence intro;
+    public EmailSequence firstright;
+    public EmailSequence firstwrong;
     public EmailSequence day1gb;
     public EmailSequence day1gg;
     public SenderDirectory directory;
@@ -55,8 +58,11 @@ public class Email : MonoBehaviour
     public int right = 0;
     public int step = 0;
     public int gully = 0;
+    public int firstone = 0;
     public int button = 0;
+    public int lives = 3;
     public GameObject archiver;
+    public GameObject gamedead;
 
 
 
@@ -64,13 +70,20 @@ public class Email : MonoBehaviour
     void Start()
     {
         list = new List<EmailData>();
-        sequence.GetSequence(list);
+        training.GetSequence(list);
         populateEmail(0);
         populatePreview(0);
         emailNumber = 0;
         score = 0;
         button = 1;
         Buttons();
+        preview3.text = null;
+        preview4.text = null;
+        preview5.text = null;
+        preview6.text = null;
+        gully = 0;
+        firstone = 0;
+        step = 0;
     }
     /*
     // Update is called once per frame
@@ -118,6 +131,10 @@ public class Email : MonoBehaviour
             {
                 gully++;
             }
+            if (signoff == "s1")
+            {
+                firstone++;
+            }
             if (right == 1)
             {
 
@@ -127,7 +144,15 @@ public class Email : MonoBehaviour
             {
                 error.text = "You have flagged a perfectly safe e-mail" + "\n" + "Do now allow this to happen again!";
             }
-            wrong.SetActive(true);
+            lives--;
+            if (lives == 0)
+            {
+                GameOver();
+            }
+            else
+            {
+                wrong.SetActive(true);
+            }
         }
         else
         {
@@ -136,6 +161,26 @@ public class Email : MonoBehaviour
 
     }
 
+    public void GameOver()
+    {
+        list = new List<EmailData>();
+        training.GetSequence(list);
+        populateEmail(0);
+        populatePreview(0);
+        emailNumber = 0;
+        score = 0;
+        button = 1;
+        Buttons();
+        preview3.text = null;
+        preview4.text = null;
+        preview5.text = null;
+        preview6.text = null;
+        gully = 0;
+        firstone = 0;
+        step = 0;
+        lives = 3;
+        gamedead.SetActive(true);
+    }
     public void Buttons()
     { 
         b1.image.color = Color.white;
@@ -212,6 +257,7 @@ public class Email : MonoBehaviour
         button = 6;
         Buttons();
     }
+
     public void nextEmail()
     {
         reply.SetActive(false);
@@ -245,18 +291,37 @@ public class Email : MonoBehaviour
             score = Mathf.Min(score, list.Count-1);
             button--;
             Buttons();
+            
         }
 
 
         if (emailNumber >= list.Count)
         {
-            if (step == 0 && gully == 0)
+            if (step == 0)
+            {
+                list = new List<EmailData>();
+                intro.GetSequence(list);
+                populateEmail(0);
+            }
+            else if (step == 1 && firstone == 0)
+            {
+                list = new List<EmailData>();
+                firstwrong.GetSequence(list);
+                populateEmail(0);
+            }
+            else if (step == 1 && firstone == 1)
+            {
+                list = new List<EmailData>();
+                firstright.GetSequence(list);
+                populateEmail(0);
+            }
+            else if (step == 2 && gully == 0)
             {
                 list = new List<EmailData>();
                 day1gg.GetSequence(list);
                 populateEmail(0);
             }
-            if (step == 0 && gully == 1)
+            else if (step == 2 && gully == 1)
             {
                 list = new List<EmailData>();
                 day1gb.GetSequence(list);
@@ -265,6 +330,7 @@ public class Email : MonoBehaviour
             emailNumber = 0;
             score = 0;
             step++;
+
 
         }
         
@@ -288,7 +354,16 @@ public class Email : MonoBehaviour
             {
                 error.text = "You have flagged a perfectly safe e-mail" + "\n" + "Do now allow this to happen again!";
             }
-                wrong.SetActive(true);
+            lives--;
+            if (lives == 0)
+            {
+                GameOver();
+            }
+            else 
+            { 
+                wrong.SetActive(true); 
+            }
+
         }
         else
         {

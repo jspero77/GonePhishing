@@ -15,22 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Gully@NBC.com
+  - 'From: Gully@XCEL.com
 
     Sick PC Deal'
   greetings:
-  - "Yo dude, I got this email from this company, it\u2019s got some sick deals about
-    computers on sale! I think we should take a look actually, it\u2019s like top
-    end hardware for like 99% off! And it\u2019s got a 2 for one deal! What a steal!
-    And it\u2019s not from RamPC! It says we gotta act quick though, the sale only
-    lasts 12 hours. I\u2019m gonna buy some stuff for our department with the company
-    card."
+  - "Yo Admin, good meeting you! I got this email from this company, it\u2019s got
+    some sick deals about computers on sale! I think we should take a look actually,
+    it\u2019s like top end hardware for like 75% off! And it\u2019s got a 2 for one
+    deal! What a steal! And it\u2019s not from TEMU! It says we gotta act quick though,
+    the sale only lasts 12 hours. I\u2019m gonna buy some stuff for our department
+    with the company card. "
   part1s:
-  - "Gully, this seems way too good to be true, don\u2019t buy anything."
+  - All right Gully, let me know how it goes!
   part2s:
-  - "Hang on, take a look at RamPC and see if they\u2019re legit, then buy it."
+  - Looks legit, place an order!
   part3s:
-  - Sounds good, let me know how it goes!
+  - TEMU got some good stuff though! Regardless the deal looks legit.
   signoffs:
   - g1
   phishing:

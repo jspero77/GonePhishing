@@ -15,20 +15,17 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Jenelle@NBC.com  \nStupid IT! Fix this now!!!"
+  - "From: Ivan@XCEL.com  \nWelcome to the team!"
   greetings:
-  - "Hey I have this error on my computer that I emailed you about two weeks ago
-    and you ignored me. I emailed last week as well but I didn\u2019t get a reply.
-    I\u2019m getting sick of this, and if you don\u2019t help me, so god help me
-    I\u2019m reporting you to the manager. It\u2019s some pop up saying I\u2019m
-    out of space on my cloud storage, and I can\u2019t save anything!\nMAKE IT GO
-    AWAY!!"
+  - "Hey so you\u2019re the new admin huh? The team here has been waiting on one
+    for a while, so please do us good! Let us know if anything!\n\n-Ivan, Jenelle,
+    Grace, Selina, Gully"
   part1s:
-  - "Jeez calm down Jenelle, I\u2019ll take a look now."
+  - Thank you guys!
   part2s:
-  - Jenelle you sure this is meant for me? Seems super aggressive.
+  - I'll try my best!
   part3s:
-  - This is spam right?
+  - I'll let you know if anything, don't worry!
   signoffs:
   - Hi
   phishing:

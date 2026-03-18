@@ -15,35 +15,18 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Baggybaguettes@gmail.com
-
-    Bakery On The News?'
+  - 'From: Google-Flagging-System@Gmail.com'
   greetings:
-  - 'Hello we were wondering if you would be interested in having a locally owned
-    bakery come onto your show. We are willing to supply the crew with free pastries
-    and bread during shooting. You will find our business info and menu attached
-    in this email. Hope to hear from you soon and let us know if you are interested
-    in this partnership.
-
-
-    Regards,
-
-    Head Chef Mary
-
-
-    Attachments:
-
-    Menu.pdf
-
-
-    BaggyBaguettesInfo.exe'
+  - An unidentified sign in was detected. If this is you, you can ignore it. If not,
+    please use the link below and log into your google account to change your password
+    within 12h, or your account will be closed.
   part1s:
-  - No one does business for free.
+  - Log in and verify the sign in was someone from IT.
   part2s:
-  - "Sounds great! We\u2019ll let you know more later."
+  - Log in and change password.
   part3s:
-  - "I\u2019m not sure if this is spam or what, please email back if not."
+  - 'Log in and reset everything. '
   signoffs:
-  - g1
+  - Hi
   phishing:
-  - Suspicious Attatchments
+  - Urgent or Threatening Language

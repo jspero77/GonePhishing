@@ -15,18 +15,22 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: FinanceDept@NBR.com \nUrgent: Why did you buy a car"
+  - 'From: Selina@XCEL.com
+
+    Help Needed Tommorow!'
   greetings:
-  - I am writing to you as we have on your files that a 100,000 car from Grotti was
-    bought in your name and you have not paid any taxes for this. Let us know ASAP
-    if this is you, otherwise we will pursue legal action.
+  - "\nGood day Admin, my mom died recently, and I\u2019ve been struggling to make
+    ends meet. I was thinking about setting up a gofundme to offset some of the funeral
+    costs. I know you're new and all, but Ivan and Gully are too busy to set it up,
+    so can you help me?\n\n"
   part1s:
-  - I think your files are wrong or messed up cause I never bought a car.
+  - "Send me your info for the listing tommorow, and I\u2019ll set up the gofundme,
+    hopefully it goes well!"
   part2s:
-  - "Ask Bruce, looks like something he\u2019d buy, not me."
+  - For sure!
   part3s:
-  - "Find someone else, I\u2019m too broke for a Grotti."
+  - They can't be that busy right? Regardless I'll help you out, no worries.
   signoffs:
   - Hi
   phishing:
-  - Urgent or Threatening Language
+  - No

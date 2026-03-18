@@ -15,20 +15,16 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Ivan@NBC.com \nNeed some assistance"
+  - "From: SP@XCEL.com \nOne More Thing!"
   greetings:
-  - "I\u2019m sending this email to you because we\u2019ve had this weird issue recently
-    where the computer we\u2019re using for the audio production locks up and we
-    have to wait like 40 seconds to start using it again. I don\u2019t want any downtime
-    during the times we\u2019re broadcasting, so maybe see about procuring an upgrade
-    for our computer or seeing what\u2019s wrong?\nKindly,\nIvan"
+  - Oh one more thing! You are in charge of manually filtering all emails sent to
+    your team, so please be aware they may be of high importance to said team!
   part1s:
-  - "I\u2019ll get back to you soon, and I\u2019ll ask management if they can expense
-    it."
+  - "So much for emails being unimportant\u2026"
   part2s:
-  - "I\u2019ll take a look at the computer later."
+  - Sounds good!
   part3s:
-  - "Ivan, you just told me you didn\u2019t need a new computer a few months ago."
+  - "Talk about a workload\u2026"
   signoffs:
   - Hi
   phishing:

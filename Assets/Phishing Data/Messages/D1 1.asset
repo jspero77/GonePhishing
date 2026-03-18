@@ -15,18 +15,20 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Training'
+  - 'From: Training
+
+    Daily Forecast'
   greetings:
   - Hello Admin! Today, there is an uptick of urgent phishing scams, and a general
     increase in scams that are too good to be true! These are things you might know,
     like a bunch of free money or a car! Also they could threaten you to accept these
     fast, so please keep an eye out!
   part1s:
-  - Why do we need this again?
+  - Ok!
   part2s:
-  - Piss Off!
+  - This seems to be automated.
   part3s:
-  - Thank You!
+  - Maybe someone will tell me what this is later?
   signoffs:
   - Hi
   phishing:

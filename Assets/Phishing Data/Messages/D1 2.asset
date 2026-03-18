@@ -15,21 +15,21 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: BruceS@NBC.com
+  - 'From: SP@XCEL.com
 
-    Heads Up!'
+    Welcome!'
   greetings:
-  - "Hello admin, I hope you\u2019re doing well. Recently, our company has been under
-    some intense public scrutiny due to some\u2026 ethical concerns. As a result,
-    some internet sleuths may be trying to breach the system. Keep an eye out for
-    anything suspicious, like something needing to get done now, or anything that
-    seems too good to be true. Good luck."
+  - "Hello Admin! I am a supervisor overseeing your first day here. Welcome to your
+    first day at XCEL, the place where you\u2019ll excel in all aspects and go further
+    than ever before! Please ignore the AI message earlier, we haven't had a chance
+    to wipe the computer. We\u2019ve put you in a virtual environment as per company
+    policy, and want you to answer these emails for us, for your first day."
   part1s:
-  - Ok, thank you!
+  - Will do!
   part2s:
-  - "I don\u2019t need you telling me how to do my job, the AI already pesters me."
+  - "I hope the emails aren't too important\u2026"
   part3s:
-  - "I\u2019ll keep an eye out."
+  - "I\u2019ll keep an eye out. Let management know too?"
   signoffs:
   - Hi
   phishing:

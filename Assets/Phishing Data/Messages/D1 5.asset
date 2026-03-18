@@ -15,20 +15,18 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: Grace@NBC.com \nhlep me"
+  - "From: M365Security@Microsoft.com \nURGENT! Email Hold"
   greetings:
-  - "\n\nHi dear, i need a new phone my one is freezing all the time. I download
-    this app and it start lagging my phone. It asks for login information to but
-    i dont know what to put in can you help me please. Also i got this email from
-    you guys. It asked about a subscription but i dont remember a subscription. Help
-    me cancel it too please. \n\n-Grace"
+  - Microsoft 365 is holding all further communications, please verify your identity
+    by simply replying with your email. This is a new verification method we are
+    trialing at your company. After replying, all communications will be released.
   part1s:
-  - "Ok Grace, I\u2019ll come by and take a look soon."
+  - Admin@XCEL.net
   part2s:
-  - "Grace please punctuate and spell your emails, I don\u2019t know if this is you,"
+  - First time seeing this, Admin@XCEL.net
   part3s:
-  - I think this is spam.
+  - "Now that\u2019s pretty high tech: Admin@XCEL.net"
   signoffs:
   - Hi
   phishing:
-  - No
+  - Impersonation/fill in whatever

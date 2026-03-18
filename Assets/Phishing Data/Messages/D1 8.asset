@@ -15,21 +15,20 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: Hiring@NRB.com
+  - 'From: JM@Gmail.com
 
-    Job Offer'
+    RSVP'
   greetings:
-  - Good day we are looking to buy your skills from our competitors and are willing
-    to offer 120k as your starting salary, and a signing bonus of 30k. If this interest
-    you in quitting your job then have a look at the contract attached to this email
-    and come down to our location. We need a response within 48h, or we WILL move
-    on with a different candidate.
+  - "*THIS MESSAGE MUST BE FILTERED BEFORE BEING SENT\n\nHey, hope you\u2019re well!
+    Just emailing about this gathering we wanted to host, and whether or not you\u2019re
+    interested. Download this file for more details please!\n\ninv.msi"
   part1s:
-  - "Ok, I\u2019ll look at it and reply soon!"
+  - "Seems legit, I\u2019ll forward it to her."
   part2s:
-  - Can I get more info?
+  - "Ms. Popular over here, can\u2019t deny this from her."
   part3s:
-  - "I didn\u2019t apply for no job recently?"
+  - "This is what they meant by manual filtering\u2026 Still gotta send it to her
+    though."
   signoffs:
   - Hi
   phishing:

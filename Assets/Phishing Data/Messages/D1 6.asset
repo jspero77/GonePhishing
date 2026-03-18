@@ -15,18 +15,23 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: BruceS@NBC.com
+  - 'From: Jenelle@XCEL.com
 
-    BRING ME MY CHAIR BACK NOOOOOW'
+    This can''t be you?'
   greetings:
-  - "TO ALL EMPLOYEES \nWHO THE HELL STOLE MY CHAIR FROM MY OFFICE. REPLY NOW OR
-    I WILL FIND YOU AND BREAK YOUR CHAIR!"
+  - "Hey Admin, it\u2019s me Jenelle. I gotta say, not great first terms, cause I
+    got an email from you asking for my account info, and I gave it to you(and the
+    two factor code). Afterward I saw a remote request, and accepted it. Then I see
+    that hacking terminal thing pop up and my computer shuts down. Then next thing
+    I know, I hear Grace and Ivan saying they got the same email from you. I think
+    whoever sent you an email got your identity and started passing it around to
+    hack the team. "
   part1s:
-  - Uhh not me.
+  - Oh ssshit.
   part2s:
-  - It was grace.
+  - "That wasn\u2019t me, contact IT now!!!"
   part3s:
-  - It was Ivan.
+  - Jenelle tell them to not reply, I screwed up big time.
   signoffs:
   - Hi
   phishing:
