@@ -306,13 +306,13 @@ public class Email : MonoBehaviour
             else if (step == 1 && firstone == 0)
             {
                 list = new List<EmailData>();
-                firstwrong.GetSequence(list);
+                firstright.GetSequence(list);
                 populateEmail(0);
             }
             else if (step == 1 && firstone == 1)
             {
                 list = new List<EmailData>();
-                firstright.GetSequence(list);
+                firstwrong.GetSequence(list);
                 populateEmail(0);
             }
             else if (step == 2 && gully == 0)
