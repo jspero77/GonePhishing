@@ -19,6 +19,7 @@ public class Email : MonoBehaviour
     public TextMeshProUGUI preview4;
     public TextMeshProUGUI preview5;
     public TextMeshProUGUI preview6;
+    public TextMeshProUGUI live;
     public string greetings;
     public string part1;
     public string part2;
@@ -63,6 +64,7 @@ public class Email : MonoBehaviour
     public int lives = 3;
     public GameObject archiver;
     public GameObject gamedead;
+    public GameObject win;
 
 
 
@@ -139,12 +141,14 @@ public class Email : MonoBehaviour
             {
 
                 error.text = "You have accepted an e-mail with the following red flags:" + "\n" + phishes + "\n" + "Do now allow this failure to repeat!";
+                
             }
             else
             {
                 error.text = "You have flagged a perfectly safe e-mail" + "\n" + "Do now allow this to happen again!";
             }
             lives--;
+            live.text = "Lives: " + lives;
             if (lives == 0)
             {
                 GameOver();
@@ -180,6 +184,7 @@ public class Email : MonoBehaviour
         step = 0;
         lives = 3;
         gamedead.SetActive(true);
+        live.text = "Lives: " + lives;
     }
     public void Buttons()
     { 
@@ -302,32 +307,42 @@ public class Email : MonoBehaviour
                 list = new List<EmailData>();
                 intro.GetSequence(list);
                 populateEmail(0);
+                Button1();
             }
             else if (step == 1 && firstone == 0)
             {
                 list = new List<EmailData>();
                 firstright.GetSequence(list);
                 populateEmail(0);
+                Button1();
             }
             else if (step == 1 && firstone == 1)
             {
                 list = new List<EmailData>();
                 firstwrong.GetSequence(list);
                 populateEmail(0);
+                Button1();
             }
             else if (step == 2 && gully == 0)
             {
                 list = new List<EmailData>();
                 day1gg.GetSequence(list);
                 populateEmail(0);
+                Button1();
             }
             else if (step == 2 && gully == 1)
             {
                 list = new List<EmailData>();
                 day1gb.GetSequence(list);
                 populateEmail(0);
+                Button1();
             }
-            emailNumber = 0;
+            else if (step == 3)
+            {
+                win.SetActive(true);
+                Button1();
+            }
+                emailNumber = 0;
             score = 0;
             step++;
 

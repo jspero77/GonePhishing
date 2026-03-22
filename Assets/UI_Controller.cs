@@ -22,6 +22,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject intro6;
     public GameObject intro7;
     public GameObject gameover;
+    public GameObject win;
     public int right = 0;
 
 
@@ -31,6 +32,7 @@ public class UI_Controller : MonoBehaviour
         bar.SetActive(false);
         email.SetActive(false);
         reply.SetActive(false);
+        win.SetActive(false);
         day1 .SetActive(true);
     }
     public void startGame()
