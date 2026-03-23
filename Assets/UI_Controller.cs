@@ -23,6 +23,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject intro7;
     public GameObject gameover;
     public GameObject win;
+    public GameObject daytrack;
     public int right = 0;
 
 
@@ -35,10 +36,19 @@ public class UI_Controller : MonoBehaviour
         win.SetActive(false);
         day1 .SetActive(true);
     }
+
     public void startGame()
     {
         day1.SetActive(false);
+        daytrack.SetActive(true);
+        
+    }
+
+    public void getdasyaway()
+    {
+        daytrack.SetActive(false);
         bar.SetActive(true);
+        email.SetActive(false);
     }
 
     public void Intro1()
@@ -85,7 +95,7 @@ public class UI_Controller : MonoBehaviour
 
     public void Intro()
     {
-        day1.SetActive(true);
+        daytrack.SetActive(true);
         intro7.SetActive(false);
     }
 

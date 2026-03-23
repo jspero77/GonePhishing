@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
@@ -20,6 +21,7 @@ public class Email : MonoBehaviour
     public TextMeshProUGUI preview5;
     public TextMeshProUGUI preview6;
     public TextMeshProUGUI live;
+    public TextMeshProUGUI daysday;
     public string greetings;
     public string part1;
     public string part2;
@@ -49,6 +51,7 @@ public class Email : MonoBehaviour
     public EmailSequence firstwrong;
     public EmailSequence day1gb;
     public EmailSequence day1gg;
+    public EmailSequence day0;
     public SenderDirectory directory;
     List<EmailData> list;
     public int emailNumber;
@@ -64,7 +67,9 @@ public class Email : MonoBehaviour
     public int lives = 3;
     public GameObject archiver;
     public GameObject gamedead;
+    public GameObject daytransition;
     public GameObject win;
+    public int day = 1;
 
 
 
@@ -79,13 +84,12 @@ public class Email : MonoBehaviour
         score = 0;
         button = 1;
         Buttons();
-        preview3.text = null;
-        preview4.text = null;
-        preview5.text = null;
         preview6.text = null;
         gully = 0;
         firstone = 0;
         step = 0;
+        daysday.text = "Day 1";
+
     }
     /*
     // Update is called once per frame
@@ -175,9 +179,6 @@ public class Email : MonoBehaviour
         score = 0;
         button = 1;
         Buttons();
-        preview3.text = null;
-        preview4.text = null;
-        preview5.text = null;
         preview6.text = null;
         gully = 0;
         firstone = 0;
@@ -185,6 +186,8 @@ public class Email : MonoBehaviour
         lives = 3;
         gamedead.SetActive(true);
         live.text = "Lives: " + lives;
+        day = 1;
+        daysday.text = "Day 1";
     }
     public void Buttons()
     { 
@@ -302,49 +305,48 @@ public class Email : MonoBehaviour
 
         if (emailNumber >= list.Count)
         {
-            if (step == 0)
-            {
-                list = new List<EmailData>();
-                intro.GetSequence(list);
-                populateEmail(0);
-                Button1();
-            }
-            else if (step == 1 && firstone == 0)
+             if (step == 1 && firstone == 0)
             {
                 list = new List<EmailData>();
                 firstright.GetSequence(list);
                 populateEmail(0);
-                Button1();
             }
-            else if (step == 1 && firstone == 1)
+            if (step == 1 && firstone == 1)
             {
                 list = new List<EmailData>();
                 firstwrong.GetSequence(list);
                 populateEmail(0);
-                Button1();
             }
-            else if (step == 2 && gully == 0)
+            if (step == 2 && gully == 0)
             {
                 list = new List<EmailData>();
                 day1gg.GetSequence(list);
                 populateEmail(0);
-                Button1();
             }
-            else if (step == 2 && gully == 1)
+            if (step == 2 && gully == 1)
             {
                 list = new List<EmailData>();
                 day1gb.GetSequence(list);
                 populateEmail(0);
-                Button1();
             }
-            else if (step == 3)
+           if (step == 3)
             {
                 win.SetActive(true);
-                Button1();
+                day = 1;
+                step = 0;
             }
-                emailNumber = 0;
+            if (step == 0)
+            {
+                list = new List<EmailData>();
+                intro.GetSequence(list);
+                daytransition.SetActive(true);
+                daysday.text = "Day 2";
+            }
+            
+            emailNumber = 0;
             score = 0;
             step++;
+            Button1();
 
 
         }
@@ -458,7 +460,7 @@ public class Email : MonoBehaviour
     public void populateEmail(int pablo)
     {
 
-
+        day = pablo;
         var emailData = list[pablo];
         greetings = emailData.greetings[0];
         part1 = emailData.part1s[0];

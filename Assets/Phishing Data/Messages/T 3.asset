@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: T 3
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - Training Part 3
+  greetings:
+  - 'The third guideline is keep your eyes peeled for any links or attachments that
+    seem suspicious. This one is harder to spot, as sometimes they can be legitimate
+    looking, but generally unless it comes from a trusted source(remember: check
+    impersonators!)all emails with links should be disregarded. Examples can include:
+    a pdf for no good reason, links to seemingly random websites, or files that need
+    to be opened to view the further contents of some email.'
+  part1s:
+  - (Continue)
+  part2s:
+  - (Continue)
+  part3s:
+  - (Continue)
+  signoffs:
+  - Hi
+  phishing:
+  - No

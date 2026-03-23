@@ -9,17 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: D1 16
+  m_Script: {fileID: 11500000, guid: d7d24bdf177f7bf4180132ae01a3606f, type: 3}
+  m_Name: T 1
   m_EditorClassIdentifier: 
-  senderType: 0
-  phishingType: 0
-  subjects:
-  - "From: Grace@NBC.com \nhlep me"
-  greetings: []
-  part1s: []
-  part2s: []
-  part3s: []
-  signoffs: []
-  phishing:
-  - No
+  emails:
+  - {fileID: 11400000, guid: 29ac6b46b8e64a64bacc66427fe88a4e, type: 2}

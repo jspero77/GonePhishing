@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: T 2
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - Training Part 2
+  greetings:
+  - "Your second guideline is anything requiring urgent language, such as:\nURGENT:
+    BANK ACCOUNT CLOSING IN 24H\nWe are closing your bank account within 24h, login
+    here to prevent closing: Link\n___________________\nThis is an example of a urgent
+    email. Often this is tied to something of importance, and you obviously don\u2019t
+    want to screw it up in case it is real. This can lead to irrational thinking,
+    and cause you to make an improper decision, or fall for a scam. Keep your eyes
+    peeled for anything requiring urgent access."
+  part1s:
+  - (Continue)
+  part2s:
+  - (Continue)
+  part3s:
+  - (Continue)
+  signoffs:
+  - Hi
+  phishing:
+  - No

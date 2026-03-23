@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: T4
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - Training Part 4
+  greetings:
+  - "Finally, for your last guideline, this is anything too good to be true. You
+    probably know the adage, \u201Cif it\u2019s too good to be true, it probably
+    is\u201C and said adage certainly applies here. Major discounts on products/services,
+    free stuff that you didn\u2019t order, anything of the sort that is following
+    that adage, will try to trick you. Fortunately, these are pretty easy to spot."
+  part1s:
+  - (Continue)
+  part2s:
+  - (Continue)
+  part3s:
+  - (Continue)
+  signoffs:
+  - Hi
+  phishing:
+  - No

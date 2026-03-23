@@ -14,6 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blocks:
   - pulls:
-    - collection: {fileID: 11400000, guid: 3637ccf1d57aaa14db8cf55287ff73c6, type: 2}
+    - collection: {fileID: 11400000, guid: 4a18e706eedf984489b99d69f6a89e97, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: d23e882de96aeca4284c93a4e38736b2, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 15cda2d6d139bca47b381bb8742de184, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 05cd6fb787cada249b84c3bea546afb9, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 2cb3a6103a909214190fe7aaa71d0cc4, type: 2}
       count: 1
     shuffle: 0

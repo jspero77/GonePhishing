@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: T 1
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - Training Part 1
+  greetings:
+  - 'For your first guideline: look out for anything that is impersonating a real
+    company/figure. An example may include a microsoft email, called micronoft365,
+    or a google email, called google-security. These should simply be called microsoft.com/google.com,
+    instead of some fancy convoluted name. Keep your eyes peeled on the headers,
+    as that may be of immense value for detecting phishing scams.'
+  part1s:
+  - (Continue)
+  part2s:
+  - (Continue)
+  part3s:
+  - (Continue)
+  signoffs:
+  - Hi
+  phishing:
+  - No
