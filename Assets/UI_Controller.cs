@@ -34,7 +34,7 @@ public class UI_Controller : MonoBehaviour
         email.SetActive(false);
         reply.SetActive(false);
         win.SetActive(false);
-        day1 .SetActive(true);
+        daytrack.SetActive(true);
     }
 
     public void startGame()
