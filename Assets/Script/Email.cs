@@ -70,6 +70,7 @@ public class Email : MonoBehaviour
     public GameObject daytransition;
     public GameObject win;
     public int day = 1;
+    public AudioSource click;
 
 
 
@@ -111,6 +112,7 @@ public class Email : MonoBehaviour
 
     public void accept()
     {
+        click.Play();
         if (phishes != "No")
         {
             right = 1;
@@ -123,6 +125,7 @@ public class Email : MonoBehaviour
     }
     public void deny()
     {
+        click.Play();
         if (phishes == "No")
         {
             right = 2;
@@ -229,6 +232,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 1;
         Buttons();
+        click.Play();
     }
     public void Button2()
     {
@@ -236,6 +240,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 2;
         Buttons();
+        click.Play();
     }
     public void Button3()
     {
@@ -243,6 +248,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 3;
         Buttons();
+        click.Play();
     }
     public void Button4()
     {
@@ -250,6 +256,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 4;
         Buttons();
+        click.Play();
     }
     public void Button5()
     {
@@ -257,6 +264,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 5;
         Buttons();
+        click.Play();
     }
     public void Button6()
     {
@@ -264,6 +272,7 @@ public class Email : MonoBehaviour
         populateEmail(score);
         button = 6;
         Buttons();
+        click.Play();
     }
 
     public void nextEmail()
@@ -358,6 +367,7 @@ public class Email : MonoBehaviour
 
     public void Reply()
     {
+        click.Play();
         archiver.GetComponent<Archive>().Arch(list[score].subjects[0], list[score].greetings[0]);
 
         if (right > 0)
