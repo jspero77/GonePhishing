@@ -19,6 +19,7 @@ MonoBehaviour:
   part1s: []
   part2s: []
   part3s: []
-  signoffs: []
+  signoffs:
+  - Hi
   phishing:
   - No

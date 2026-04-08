@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5639a95024bfb344a90336dbc26d8c7e, type: 3}
+  m_Name: Day 2 First
+  m_EditorClassIdentifier: 
+  blocks:
+  - pulls:
+    - collection: {fileID: 11400000, guid: 79d8e6d68695b184dbba2a1ea38659c6, type: 2}
+      count: 1
+    shuffle: 0
+  - pulls:
+    - collection: {fileID: 11400000, guid: 973168603e68c024e9e3a49dd4ce4361, type: 2}
+      count: 1
+    shuffle: 0

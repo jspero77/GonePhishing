@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: t6
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From:HeadSecurity@XCEL.Com
+
+    You made it!'
+  greetings:
+  - "Ok, that\u2019s all for today. Tommorow you\u2019ll start your job properly,
+    and you\u2019re going to be running into these phishing scams, so keep your eyes
+    peeled!\n\nAlso as a side note, can\u2019t believe we gotta run this for every
+    new hire, like does management think we\u2019re old people who can get scammed
+    like this? We\u2019re not that slow man.\n\nAnyway your supervisor should be
+    contacting you first thing tomorrow, so report to them. "
+  part1s:
+  - Sounds good. Also yeah, what do they take us for?
+  part2s:
+  - "Thanks! I\u2019ll talk to them tomorrow, and also don\u2019t get too confident,
+    or else you might fall for one!"
+  part3s:
+  - See you tomorrow. And haha, agreed
+  signoffs:
+  - Hi
+  phishing:
+  - No

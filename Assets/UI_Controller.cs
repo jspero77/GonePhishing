@@ -38,7 +38,9 @@ public class UI_Controller : MonoBehaviour
         email.SetActive(false);
         reply.SetActive(false);
         win.SetActive(false);
-        daytrack.SetActive(true);
+        archive.SetActive(false);
+        daytrack.SetActive(false);
+        start.SetActive(true);
         Clicks();
     }
 

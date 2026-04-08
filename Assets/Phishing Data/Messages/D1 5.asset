@@ -15,7 +15,7 @@ MonoBehaviour:
   senderType: 0
   phishingType: 0
   subjects:
-  - "From: M365Security@Microsoft.com \nURGENT! Email Hold"
+  - "From: M365Security@Micronoft.com \nURGENT! Email Hold"
   greetings:
   - Microsoft 365 is holding all further communications, please verify your identity
     by simply replying with your email. This is a new verification method we are
@@ -29,4 +29,4 @@ MonoBehaviour:
   signoffs:
   - s1
   phishing:
-  - Impersonation/fill in whatever
+  - Impersonation

@@ -52,6 +52,9 @@ public class Email : MonoBehaviour
     public EmailSequence day1gb;
     public EmailSequence day1gg;
     public EmailSequence day0;
+    public EmailSequence day2fire;
+    public EmailSequence day2good;
+    public EmailSequence day2bad;
     public SenderDirectory directory;
     List<EmailData> list;
     public int emailNumber;
@@ -64,6 +67,7 @@ public class Email : MonoBehaviour
     public int gully = 0;
     public int firstone = 0;
     public int button = 0;
+    public int twoo = 0;
     public int lives = 3;
     public GameObject archiver;
     public GameObject gamedead;
@@ -87,6 +91,7 @@ public class Email : MonoBehaviour
         Buttons();
         preview6.text = null;
         gully = 0;
+        twoo = 0;
         firstone = 0;
         step = 0;
         daysday.text = "Day 1";
@@ -144,6 +149,10 @@ public class Email : MonoBehaviour
             {
                 firstone++;
             }
+            if (signoff == "z1")
+            {
+                twoo++;
+            }
             if (right == 1)
             {
 
@@ -190,6 +199,7 @@ public class Email : MonoBehaviour
         gamedead.SetActive(true);
         live.text = "Lives: " + lives;
         day = 1;
+        twoo = 0;
         daysday.text = "Day 1";
     }
     public void Buttons()
@@ -280,6 +290,7 @@ public class Email : MonoBehaviour
         reply.SetActive(false);
         emailNumber++;
         score++;
+        live.text = "Lives: " + lives;
         if (button >= 6)
         {
             list[emailNumber+4] = list[emailNumber +3];
@@ -338,7 +349,24 @@ public class Email : MonoBehaviour
                 day1gb.GetSequence(list);
                 populateEmail(0);
             }
-           if (step == 3)
+            if (step == 3)
+            {
+                list = new List<EmailData>();
+                day2fire.GetSequence(list);
+                daytransition.SetActive(true);
+                daysday.text = "Day 3";
+            }
+            if (step == 4 && twoo == 1)
+            {
+                list = new List<EmailData>();
+                day2good.GetSequence(list);
+            }
+            if (step == 4 && twoo == 0)
+            {
+                list = new List<EmailData>();
+                day2bad.GetSequence(list);
+            }
+            if (step == 5)
             {
                 win.SetActive(true);
                 day = 1;
@@ -348,6 +376,7 @@ public class Email : MonoBehaviour
             {
                 list = new List<EmailData>();
                 intro.GetSequence(list);
+                day++;
                 daytransition.SetActive(true);
                 daysday.text = "Day 2";
             }

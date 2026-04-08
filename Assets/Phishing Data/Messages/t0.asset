@@ -10,25 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: D1 2
+  m_Name: t0
   m_EditorClassIdentifier: 
   senderType: 0
   phishingType: 0
   subjects:
-  - 'From: SP@XCEL.com
+  - 'Training Day!
 
-    Welcome!'
+
+    From:HeadSecurity@XCEL.Com
+
+'
   greetings:
-  - "Welcome back to XCEL! I\u2019m the supervisor that you hopefully heard of, from
-    the head of security. Pleasure to work with you, the rest of the team should
-    be reaching out to you soon. Have a good day! "
+  - "Hello Admin! Welcome to your first day at XCEL, the place where you\u2019ll
+    excel in all aspects and go further than ever before! We\u2019ve put you in a
+    virtual environment, and want you to review these phishing emails, for your first
+    day. Just a quick brush up on your skills, when you go deal with your actual
+    job."
   part1s:
-  - Thanks, you too!
+  - Will do!
   part2s:
-  - "Can\u2019t wait!"
+  - Here's hoping I do well!
   part3s:
-  - Have a good day as well!
+  - "I\u2019ll keep an eye out!"
   signoffs:
   - Hi
   phishing:
-  - No
+  - no

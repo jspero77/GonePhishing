@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
+  m_Name: d2 4
+  m_EditorClassIdentifier: 
+  senderType: 0
+  phishingType: 0
+  subjects:
+  - 'From: AIPhishingBot@XCEL.Com
+
+    To: Admin@XCEL.Com
+
+    **AUTOMATED MESSAGE**'
+  greetings:
+  - "Attention Admin! The network is disabled. A message from your supervisor reads
+    as follows: So, you won\u2019t believe this, but our head of security fell for
+    a phishing scam. Can\u2019t believe this\u2026 \n\nGoing to have to start calling
+    him old at this point; but looking at the investigation so far, it looks like
+    they used an AI system to clone my voice and get into his systems to get info
+    on him and just steal it which is crazy! \n\nI have heard about phishing scams
+    just stealing info but never just acting like someone else in this way to get
+    your own info, while behaving like you and then just getting access to everything!\n\nThe
+    company is shuttering the servers now because of it, so they\u2019re gonna fix
+    the data breach. Gotta send this message through the AI, but looks like we gotta
+    kill time. But still,\nCrazy world\u2026"
+  part1s:
+  - "AI voice cloning? Didn\u2019t even think that could be used like that\u2026"
+  part2s:
+  - Dang, this guy really is showing his age, but honestly that AI stuff is pretty
+    new.
+  part3s:
+  - "Make sure they didn\u2019t get into your stuff as well. We should have a way
+    to confirm if who we\u2019re talking to is real."
+  signoffs:
+  - Hi
+  phishing:
+  - No
